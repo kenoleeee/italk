@@ -1,0 +1,244 @@
+{
+  "common": {
+    "appName": "italk.",
+    "voice": "voice",
+    "chat": "chat",
+    "settings": "settings",
+    "account": "account",
+    "send": "Send",
+    "add": "Add",
+    "remove": "Remove"
+  },
+  "navigation": {
+    "home": "Home",
+    "voice": "Voice",
+    "chat": "Chat",
+    "settings": "Settings",
+    "account": "Account"
+  },
+  "account": {
+    "quickActions": "Quick Actions",
+    "logout": "Logout",
+    "logoutConfirm": "Are you sure you want to logout?",
+    "languageLevel": {
+      "title": "Your Language Level",
+      "description": "AI will adapt conversation complexity to your level"
+    },
+    "stats": {
+      "title": "Your Stats",
+      "sessions": "Sessions"
+    }
+  },
+  "levels": {
+    "a1": "Beginner",
+    "a1Description": "Just starting",
+    "a2": "Elementary",
+    "a2Description": "Basic phrases",
+    "b1": "Intermediate",
+    "b1Description": "Everyday topics",
+    "b2": "Upper Intermediate",
+    "b2Description": "Complex ideas",
+    "c1": "Advanced",
+    "c1Description": "Fluent speaker",
+    "c2": "Proficient",
+    "c2Description": "Near native"
+  },
+  "home": {
+    "title": "italk.",
+    "subtitle": "Speak confidently in any language with real-time, gentle practice. ✨ Choose chat or voice, pick topics you love, and improve naturally with friendly feedback—no stress, only progress.",
+    "hub": {
+      "title": "Welcome to italk.",
+      "subtitle": "Your personal language learning hub",
+      "progress": {
+        "title": "Your Progress"
+      },
+      "streak": {
+        "title": "Your Practice Streak",
+        "days": "Days",
+        "weeklyGoal": "Weekly Goal"
+      },
+      "navigation": {
+        "title": "Start Practicing",
+        "subtitle": "Choose your mode and topic",
+        "selectTopic": "Choose a topic",
+        "chatMode": "Chat Mode",
+        "chatDescription": "Practice writing and reading",
+        "voiceMode": "Voice Mode",
+        "voiceDescription": "Practice speaking and listening"
+      },
+      "account": {
+        "title": "Account",
+        "subtitle": "Your profile and settings",
+        "guestUser": "Guest User",
+        "guestDescription": "Sign up to track your progress",
+        "signIn": "Sign In",
+        "signUp": "Sign Up",
+        "learningLanguage": "Learning Language",
+        "selectLanguage": "Choose the language you want to practice",
+        "stats": "Your Stats",
+        "sessionsCompleted": "Sessions",
+        "minutesPracticed": "Minutes",
+        "settings": "Settings",
+        "progress": "View Progress"
+      }
+    },
+    "features": {
+      "title": "Features",
+      "realConversations": {
+        "title": "Real conversations",
+        "description": "Practice speaking or texting with a friendly AI partner that adapts to you."
+      },
+      "personalizedTopics": {
+        "title": "Personalized topics",
+        "description": "Pick themes you care about and get relevant, motivating practice."
+      },
+      "gentleFeedback": {
+        "title": "Gentle feedback",
+        "description": "Improve naturally with supportive corrections and suggestions."
+      }
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "step1": {
+        "label": "Step 1",
+        "title": "Choose your mode",
+        "description": "Start a voice call or open a chat—whatever feels comfortable."
+      },
+      "step2": {
+        "label": "Step 2",
+        "title": "Pick a topic",
+        "description": "From daily life to travel, work, tech, and more."
+      },
+      "step3": {
+        "label": "Step 3",
+        "title": "Practice and improve",
+        "description": "Get friendly feedback and build confidence at your pace."
+      }
+    },
+    "topics": {
+      "title": "Choose a topic to practice",
+      "placeholder": "Enter your own topic (e.g. Banking, Healthcare, Anime)",
+      "travel": "Travel",
+      "dailyLife": "Daily life",
+      "work": "Work",
+      "tech": "Tech",
+      "food": "Food",
+      "culture": "Culture",
+      "study": "Study",
+      "hobbies": "Hobbies",
+      "orCustom": "Or enter your own topic:",
+      "use": "Use",
+      "clearTopic": "Clear topic",
+      "startChat": "Start Chat",
+      "startVoice": "Start Voice",
+      "random": "Random Topic"
+    },
+    "testimonial": {
+      "quote": "\"The easiest way I've found to actually speak more and worry less.\"",
+      "author": "— Ana, intermediate learner"
+    },
+    "cta": {
+      "title": "Ready to practice?",
+      "description": "Jump into a quick session right now—speak or chat, your choice.",
+      "startVoice": "Start voice",
+      "startChat": "Start chat"
+    }
+  },
+  "chat": {
+    "placeholder": "Type a message",
+    "placeholderLoading": "AI is typing...",
+    "topic": "Topic",
+    "errors": {
+      "apiNotConfigured": "API key not configured. Please add your Gemini API key to .env file.",
+      "apiWarning": "⚠️ Gemini API is not configured. Please add VITE_GEMINI_API_KEY to your .env file.\n\nGet your API key from: https://makersuite.google.com/app/apikey",
+      "dummyResponse": "⚠️ API not configured. This is a dummy response. Please add your Gemini API key to use the AI assistant.",
+      "errorPrefix": "❌ Error: "
+    },
+    "greeting": "Hi! Ready to practice."
+  },
+  "voice": {
+    "title": "Voice Practice",
+    "listening": "Listening... Speak naturally!",
+    "aiSpeaking": "AI is speaking...",
+    "processing": "Processing your message...",
+    "clickToStart": "Click the microphone to start speaking",
+    "topic": "Topic",
+    "youSaid": "You said:",
+    "ai": "AI:",
+    "tips": {
+      "title": "💡 Tips",
+      "tip1": "• Speak clearly and naturally",
+      "tip2": "• Take your time - there's no rush",
+      "tip3": "• The AI will provide gentle feedback"
+    },
+    "errors": {
+      "recognitionError": "Could not recognize speech. Please try again.",
+      "browserNotSupported": "Speech recognition is not supported in your browser.",
+      "browserSuggestion": "Please use Google Chrome, Microsoft Edge, or Safari for voice features.",
+      "microphonePermission": "Microphone access denied. Please allow microphone access in your browser settings.",
+      "noSpeech": "No speech detected. Please try again.",
+      "networkError": "Network error. Please check your connection.",
+      "noApiKey": "⚠️ No API key configured. Please add your Google Gemini API key in Settings to use voice practice.",
+      "invalidApiKey": "❌ Invalid API key or connection error. Please check your API key in Settings."
+    }
+  },
+  "topicOfDay": {
+    "title": "Topic of the Day",
+    "subtitle": "Try this daily conversation starter",
+    "startChat": "Start Chat",
+    "startVoice": "Start Voice",
+    "autoClose": "Auto-closes in 1 minute",
+    "topics": {
+      "morningRoutine": "My morning routine",
+      "favoriteMovie": "My favorite movie or TV show",
+      "dreamDestination": "My dream travel destination",
+      "cooking": "A dish I love to cook",
+      "careerGoals": "My career goals and aspirations",
+      "lastBook": "The last book I read",
+      "musicTaste": "My music taste and favorite artists"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your experience",
+    "apiKey": {
+      "title": "Gemini API Key",
+      "subtitle": "This is an open-source project. Add your own Google Gemini API key to use the app.",
+      "placeholder": "Enter your Gemini API key...",
+      "save": "Save API Key",
+      "saved": "Saved!",
+      "clear": "Clear",
+      "hint1": "Get your free API key from Google AI Studio",
+      "hint2": "Your API key is stored locally and never shared",
+      "learnMore": "How to get an API key"
+    },
+    "language": {
+      "title": "🌍 Language",
+      "subtitle": "Choose your preferred language",
+      "english": "English",
+      "russian": "Русский",
+      "spanish": "Español",
+      "french": "Français",
+      "german": "Deutsch"
+    },
+    "theme": {
+      "title": "🎨 Theme",
+      "subtitle": "Choose your appearance",
+      "light": "Light",
+      "lightDesc": "Bright and clean appearance",
+      "dark": "Dark",
+      "darkDesc": "Easy on the eyes",
+      "system": "System",
+      "systemDesc": "Automatically match your device settings"
+    },
+    "information": {
+      "title": "📄 Information",
+      "subtitle": "Legal and support",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "support": "Support & Feedback"
+    },
+    "version": "italk. v1.0.0"
+  }
+}
+

@@ -1,0 +1,244 @@
+{
+  "common": {
+    "appName": "italk.",
+    "voice": "voix",
+    "chat": "chat",
+    "settings": "paramètres",
+    "account": "compte",
+    "send": "Envoyer",
+    "add": "Ajouter",
+    "remove": "Supprimer"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "voice": "Voix",
+    "chat": "Chat",
+    "settings": "Paramètres",
+    "account": "Compte"
+  },
+  "account": {
+    "quickActions": "Actions Rapides",
+    "logout": "Se Déconnecter",
+    "logoutConfirm": "Êtes-vous sûr de vouloir vous déconnecter ?",
+    "languageLevel": {
+      "title": "Votre Niveau de Langue",
+      "description": "L'IA adaptera la complexité de la conversation à votre niveau"
+    },
+    "stats": {
+      "title": "Vos Statistiques",
+      "sessions": "Sessions"
+    }
+  },
+  "levels": {
+    "a1": "Débutant",
+    "a1Description": "Tout début",
+    "a2": "Élémentaire",
+    "a2Description": "Phrases de base",
+    "b1": "Intermédiaire",
+    "b1Description": "Sujets quotidiens",
+    "b2": "Intermédiaire Supérieur",
+    "b2Description": "Idées complexes",
+    "c1": "Avancé",
+    "c1Description": "Locuteur fluide",
+    "c2": "Compétent",
+    "c2Description": "Quasi natif"
+  },
+  "home": {
+    "title": "italk.",
+    "subtitle": "Parlez avec confiance dans n'importe quelle langue avec une pratique en temps réel et douce. ✨ Choisissez le chat ou la voix, choisissez des sujets que vous aimez et améliorez-vous naturellement avec des retours amicaux—sans stress, seulement des progrès.",
+    "hub": {
+      "title": "Bienvenue sur italk.",
+      "subtitle": "Votre centre d'apprentissage des langues personnel",
+      "progress": {
+        "title": "Vos progrès"
+      },
+      "streak": {
+        "title": "Votre série de pratique",
+        "days": "Jours",
+        "weeklyGoal": "Objectif hebdomadaire"
+      },
+      "navigation": {
+        "title": "Commencer à pratiquer",
+        "subtitle": "Choisissez votre mode et sujet",
+        "selectTopic": "Choisissez un sujet",
+        "chatMode": "Mode Chat",
+        "chatDescription": "Pratiquer l'écriture et la lecture",
+        "voiceMode": "Mode Voix",
+        "voiceDescription": "Pratiquer la parole et l'écoute"
+      },
+      "account": {
+        "title": "Compte",
+        "subtitle": "Votre profil et paramètres",
+        "guestUser": "Utilisateur Invité",
+        "guestDescription": "Inscrivez-vous pour suivre vos progrès",
+        "signIn": "Se Connecter",
+        "signUp": "S'inscrire",
+        "learningLanguage": "Langue d'apprentissage",
+        "selectLanguage": "Choisissez la langue que vous voulez pratiquer",
+        "stats": "Vos statistiques",
+        "sessionsCompleted": "Sessions",
+        "minutesPracticed": "Minutes",
+        "settings": "Paramètres",
+        "progress": "Voir les progrès"
+      }
+    },
+    "features": {
+      "title": "Fonctionnalités",
+      "realConversations": {
+        "title": "Conversations réelles",
+        "description": "Pratiquez en parlant ou en écrivant avec un partenaire IA amical qui s'adapte à vous."
+      },
+      "personalizedTopics": {
+        "title": "Sujets personnalisés",
+        "description": "Choisissez des thèmes qui vous intéressent et obtenez une pratique pertinente et motivante."
+      },
+      "gentleFeedback": {
+        "title": "Retour bienveillant",
+        "description": "Améliorez-vous naturellement avec des corrections et des suggestions de soutien."
+      }
+    },
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "step1": {
+        "label": "Étape 1",
+        "title": "Choisissez votre mode",
+        "description": "Commencez un appel vocal ou ouvrez un chat—ce qui vous convient."
+      },
+      "step2": {
+        "label": "Étape 2",
+        "title": "Choisissez un sujet",
+        "description": "De la vie quotidienne aux voyages, au travail, à la technologie et plus encore."
+      },
+      "step3": {
+        "label": "Étape 3",
+        "title": "Pratiquez et améliorez-vous",
+        "description": "Recevez des retours amicaux et développez votre confiance à votre rythme."
+      }
+    },
+    "topics": {
+      "title": "Choisissez un sujet pour pratiquer",
+      "placeholder": "Entrez votre propre sujet (ex. Banque, Santé, Anime)",
+      "travel": "Voyages",
+      "dailyLife": "Vie quotidienne",
+      "work": "Travail",
+      "tech": "Technologie",
+      "food": "Nourriture",
+      "culture": "Culture",
+      "study": "Études",
+      "hobbies": "Loisirs",
+      "orCustom": "Ou entrez votre propre sujet:",
+      "use": "Utiliser",
+      "clearTopic": "Effacer le sujet",
+      "startChat": "Démarrer Chat",
+      "startVoice": "Démarrer Voix",
+      "random": "Sujet Aléatoire"
+    },
+    "testimonial": {
+      "quote": "\"Le moyen le plus simple que j'ai trouvé pour parler plus et m'inquiéter moins.\"",
+      "author": "— Ana, apprenante de niveau intermédiaire"
+    },
+    "cta": {
+      "title": "Prêt à pratiquer ?",
+      "description": "Lancez-vous dans une session rapide maintenant—parlez ou chattez, à vous de choisir.",
+      "startVoice": "Commencer la voix",
+      "startChat": "Commencer le chat"
+    }
+  },
+  "chat": {
+    "placeholder": "Tapez un message",
+    "placeholderLoading": "L'IA tape...",
+    "topic": "Sujet",
+    "errors": {
+      "noApiKey": "⚠️ Clé API non configurée.\n\nCeci est un projet open source. Pour utiliser le chat :\n1. Allez dans Paramètres ⚙️\n2. Ajoutez votre clé API Google Gemini\n3. Obtenez une clé gratuite sur : ai.google.dev",
+      "pleaseConfigureApi": "⚠️ Veuillez configurer votre clé API dans les Paramètres pour continuer à chatter.",
+      "invalidApiKey": "❌ Clé API invalide ou erreur de connexion.\n\nVeuillez vérifier votre clé API dans les Paramètres.",
+      "errorPrefix": "❌ Erreur : "
+    },
+    "greeting": "Salut ! Prêt à pratiquer."
+  },
+  "voice": {
+    "title": "Pratique vocale",
+    "listening": "Écoute... Parlez naturellement !",
+    "aiSpeaking": "L'IA parle...",
+    "processing": "Traitement de votre message...",
+    "clickToStart": "Cliquez sur le microphone pour commencer à parler",
+    "topic": "Sujet",
+    "youSaid": "Vous avez dit :",
+    "ai": "IA :",
+    "tips": {
+      "title": "💡 Conseils",
+      "tip1": "• Parlez clairement et naturellement",
+      "tip2": "• Prenez votre temps - il n'y a pas de hâte",
+      "tip3": "• L'IA fournira des retours bienveillants"
+    },
+    "errors": {
+      "recognitionError": "Impossible de reconnaître la parole. Veuillez réessayer.",
+      "browserNotSupported": "La reconnaissance vocale n'est pas prise en charge par votre navigateur.",
+      "browserSuggestion": "Veuillez utiliser Google Chrome, Microsoft Edge ou Safari pour les fonctions vocales.",
+      "microphonePermission": "Accès au microphone refusé. Veuillez autoriser l'accès au microphone dans les paramètres du navigateur.",
+      "noSpeech": "Aucune parole détectée. Veuillez réessayer.",
+      "networkError": "Erreur réseau. Vérifiez votre connexion.",
+      "noApiKey": "⚠️ Clé API non configurée. Veuillez ajouter votre clé API Google Gemini dans les Paramètres pour utiliser la pratique vocale.",
+      "invalidApiKey": "❌ Clé API invalide ou erreur de connexion. Veuillez vérifier votre clé API dans les Paramètres."
+    }
+  },
+  "topicOfDay": {
+    "title": "Sujet du jour",
+    "subtitle": "Essayez ce démarreur de conversation quotidien",
+    "startChat": "Démarrer le chat",
+    "startVoice": "Démarrer la voix",
+    "autoClose": "Fermeture automatique dans 1 minute",
+    "topics": {
+      "morningRoutine": "Ma routine matinale",
+      "favoriteMovie": "Mon film ou série préféré",
+      "dreamDestination": "Ma destination de voyage de rêve",
+      "cooking": "Un plat que j'adore cuisiner",
+      "careerGoals": "Mes objectifs et aspirations professionnels",
+      "lastBook": "Le dernier livre que j'ai lu",
+      "musicTaste": "Mon goût musical et artistes préférés"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Personnalisez votre expérience",
+    "apiKey": {
+      "title": "Clé API Gemini",
+      "subtitle": "Il s'agit d'un projet open source. Ajoutez votre propre clé API Google Gemini pour utiliser l'application.",
+      "placeholder": "Entrez votre clé API Gemini...",
+      "save": "Enregistrer la clé API",
+      "saved": "Enregistré !",
+      "clear": "Effacer",
+      "hint1": "Obtenez votre clé API gratuite sur Google AI Studio",
+      "hint2": "Votre clé API est stockée localement et n'est jamais partagée",
+      "learnMore": "Comment obtenir une clé API"
+    },
+    "language": {
+      "title": "🌍 Langue",
+      "subtitle": "Choisissez votre langue préférée",
+      "english": "English",
+      "russian": "Русский",
+      "spanish": "Español",
+      "french": "Français",
+      "german": "Deutsch"
+    },
+    "theme": {
+      "title": "🎨 Thème",
+      "subtitle": "Choisissez votre apparence",
+      "light": "Clair",
+      "lightDesc": "Apparence lumineuse et propre",
+      "dark": "Sombre",
+      "darkDesc": "Facile pour les yeux",
+      "system": "Système",
+      "systemDesc": "Correspondre automatiquement aux paramètres de votre appareil"
+    },
+    "information": {
+      "title": "📄 Information",
+      "subtitle": "Juridique et assistance",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "support": "Assistance et commentaires"
+    },
+    "version": "italk. v1.0.0"
+  }
+}
+
